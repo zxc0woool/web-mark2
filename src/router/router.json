@@ -1,0 +1,164 @@
+[
+    {
+        "key": "Index/Home",
+        "label": "首页",
+        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+    },
+    {
+        "key": "Index/Equipment",
+        "auth": true,
+        "label": "设备仓库1",
+        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif",
+        "children": [
+            {
+                "key": "Warehouse",
+                "label": "设备仓库",
+                "grant": [
+                    {
+                        "type": "see",
+                        "value": "查看"
+                    },
+                    {
+                        "type": "edit",
+                        "value": "仓库编辑"
+                    },
+                    {
+                        "type": "edit",
+                        "value": "仓库编辑查看"
+                    }
+                ],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+              
+            },
+            {
+                "key": "home3-2",
+                "label": "设备维修",
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif",
+                "children": [
+                    {
+                        "key": "home3-2-1",
+                        "label": "设备仓库编辑",
+                        "grant": [
+                            {
+                                "type": "see",
+                                "value": "查看"
+                            },
+                            {
+                                "type": "edit",
+                                "value": "编辑"
+                            }
+                        ],
+                        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+                    },
+                    {
+                        "key": "home3-2-2",
+                        "label": "设备仓库查看",
+                        "grant": [
+                            {
+                                "type": "see",
+                                "value": "查看"
+                            },
+                            {
+                                "type": "edit",
+                                "value": "编辑"
+                            }
+                        ],
+                        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+                    }
+                ]
+            },
+            {
+                "key": "home3-3",
+                "label": "硬件管理",
+                "grant": [
+                    {
+                        "type": "see",
+                        "value": "查看"
+                    }
+                ],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            },
+            {
+                "key": "home3-4",
+                "label": "回收物品管理",
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            },
+            {
+                "key": "Parameter",
+                "label": "设备参数",
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            }
+        ]
+    },
+    {
+        "key": "Index/ImageRecognitionManagement",
+        "label": "图像识别管理",
+        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+    },
+    {
+        "key": "Index/SystemSettings",
+        "label": "系统设置",
+        "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif",
+        "children": [
+            {
+                "key": "SystemUser",
+                "label": "系统用户管理",
+                "grant": [
+                    {
+                        "type": "delete",
+                        "value": "删除"
+                    }
+                ],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            },
+            {
+                "key": "SystemGroup",
+                "label": "系统组管理",
+                "grant": [
+                    {
+                        "type": "addGroup",
+                        "value": "新增组"
+                    },
+                    {
+                        "type": "edit",
+                        "value": "编辑"
+                    },
+                    {
+                        "type": "delete",
+                        "value": "删除"
+                    }
+                ],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            },
+            {
+                "key": "SystemFunction",
+                "label": "系统功能管理",
+                "grant": [
+                    {
+                        "type": "addCatalogue",
+                        "value": "新增目录"
+                    },
+                    {
+                        "type": "edit",
+                        "value": "编辑"
+                    },
+                    {
+                        "type": "addChildNode",
+                        "value": "添加子节点"
+                    },
+                    {
+                        "type": "delete",
+                        "value": "删除"
+                    }
+                ],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            },
+            {
+                "key": "SystemLog",
+                "label": "操作日志",
+                "grant": [],
+                "icon": "https://edu-wenku.bdimg.com/v1/pc/header-icon/header-icon-vip-new.gif"
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+
+.Index {
+
+  .val{
+    color: rgba(255, 0, 0, 0.623);
+    --colorA      : #ffffff;
+    filter        :
+    drop-shadow(0 0 2px var(--colorA)) drop-shadow(0 0 5px var(--colorA)) drop-shadow(0 0 10px var(--colorA)) drop-shadow(0 0 15px var(--colorA)) drop-shadow(0 0 25px var(--colorA));
+
+    &:hover {
+      color: rgba(0, 0, 255, 0.522);
+    }
+  }
+  .val2{
+    // 继承val的样式
+    @extend .val;
+  }
+  :global{
+    .ant-btn-default{
+      background-color:antiquewhite 
+    }
+  }
+
+}
+
